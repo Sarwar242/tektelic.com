@@ -1,0 +1,115 @@
+[09-Feb-2021 05:42:58 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40732384 bytes) in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesLayouts.php on line 94
+[09-Feb-2021 12:27:13 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40733672 bytes) in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesLayouts.php on line 94
+[09-Feb-2021 12:28:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 40734952 bytes) in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/View/Concerns/ManagesLayouts.php on line 94
+[05-Mar-2021 09:24:15 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/tektelic/public_html/vendor/backpack/logmanager/src/app/Classes/LogViewer.php on line 175
+[15-Mar-2021 14:16:17 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 24576 bytes) in /home/tektelic/public_html/vendor/backpack/logmanager/src/app/Classes/LogViewer.php on line 175
+[16-Mar-2021 17:28:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/tektelic/public_html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php:27
+Stack trace:
+#0 /home/tektelic/public_html/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/PDOConnection.php(27): PDO->__construct('mysql:host=loca...', 'tektelic_main', 'e03I%Khosb0V', Array)
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(67): Doctrine\DBAL\Driver\PDOConnection->__construct('mysql:host=loca...', 'tektelic_main', 'e03I%Khosb0V', Array)
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(100): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'tektelic_main', 'e03I%Khosb0V', Array)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(50): Illuminate\Database\Connectors\Connector->tryAgainIfCausedByLostConnection(Object(Doctrine\DBAL\Driver\PDOExc in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 671
+[24-Jun-2021 08:24:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:25:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:29:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:29:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:29:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:29:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:29:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:32:11 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:32:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:33:34 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:33:56 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:34:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[24-Jun-2021 08:34:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class hash does not exist in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php:809
+Stack trace:
+#0 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(809): ReflectionClass->__construct('hash')
+#1 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(691): Illuminate\Container\Container->build('hash')
+#2 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(796): Illuminate\Container\Container->resolve('hash', Array, true)
+#3 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(637): Illuminate\Foundation\Application->resolve('hash', Array)
+#4 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(781): Illuminate\Container\Container->make('hash', Array)
+#5 /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(128 in /home/tektelic/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
