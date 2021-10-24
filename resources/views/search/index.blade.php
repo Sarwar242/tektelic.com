@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', (isset($search_text) && $search_text != '') ? $search_text : 'Search') 
+@section('metaTitle', (isset($search_text) && $search_text != '') ? $search_text : 'Search')
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags((isset($search_text) && $search_text != '') ? $search_text." - FIND EXACTLY WHAT YOU NEED" : 'FIND EXACTLY WHAT YOU NEED') ))
 
 @section('content')
@@ -12,7 +12,7 @@
                 </ul>
             </div>
             <div class="page-headings">
-                <h2 class="page-title"><?= \App\Models\StaticTextLang::t("Find exactly what you need",'search'); ?></h2>
+                <h1 class="page-title"><?= \App\Models\StaticTextLang::t("Find exactly what you need",'search'); ?></h1>
             </div>
         </div>
     </div>

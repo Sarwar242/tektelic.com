@@ -11,7 +11,7 @@
                 </ul>
             </div>
             <div class="page-headings">
-                <h2 class="page-title">{{$distributor->title}}</h2>
+                <h1 class="page-title">{{$distributor->title}}</h1>
             </div>
         </div>
     </div>

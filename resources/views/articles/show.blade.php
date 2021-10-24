@@ -1,6 +1,11 @@
 @extends('layout')
-@section('metaTitle', $post->title)
-@section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($post->subtitle) ))
+@section('metaTitle', \Illuminate\Support\Str::limit($post->title, $limit = 55, $end = '...'))
+@if(!is_null($post->subtitle))
+@section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($post->subtitle)))
+@else
+@section('metaDesc', $post->title)
+@endif
+
 @section('content')
 <div class="page-navigation">
     <div class="container">

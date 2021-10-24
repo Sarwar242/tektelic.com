@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', $blog->title)
+@section('metaTitle', \Illuminate\Support\Str::limit($blog->title, $limit = 55, $end = '...'))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($blog->content_top) ))
 @section('content')
     <!-- #SID - 44-new-website-page-knowledge -->
@@ -97,7 +97,7 @@
             @include('layouts._parts.blog_block',['blogs' => $related_blogs,'title'=> \App\Models\StaticTextLang::t("<b>YOU MIGHT ALSO LIKE</b>",'main') ])
         </section>
         @endif
-		
+
 		<section class="newsletter-box blog-desc-news">
 			<div class="container">
 				<div class="row">

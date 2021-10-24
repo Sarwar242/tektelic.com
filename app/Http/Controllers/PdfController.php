@@ -57,7 +57,8 @@ class PdfController extends Controller
         $data = [];
         parse_str($_POST['data'], $data);
         $mess='';
-        $db_request=\App\Models\Request::saveRequest($data);
+        if($data['name']!='' && $data['email']!='')
+            $db_request=\App\Models\Request::saveRequest($data);
         try {
            // $this->sendEmail($db_request,'emails.contact_us');
             $mess = 'Thank you for downloading TEKTELIC whitepaper!';//'Your email is sent';

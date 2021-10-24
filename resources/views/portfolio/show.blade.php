@@ -1,7 +1,10 @@
 @extends('layout')
-@section('metaTitle', $portfolio->title)
-@section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($portfolio->sub_title) ))
-
+@section('metaTitle', \Illuminate\Support\Str::limit($portfolio->title, $limit = 55, $end = '...'))
+@if(!is_null($portfolio->subtitle))
+@section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($portfolio->sub_title)))
+@else
+@section('metaDesc', $portfolio->title)
+@endif
 @section('content')
 <div class="page-navigation">
     <div class="container">

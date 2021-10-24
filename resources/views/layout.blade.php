@@ -337,6 +337,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="form-legend">
                 <div class="form-title">Download Now</div>
             </div>
+            <p class='product-info-subtitle'>Thank you for visiting <strong>TEKTELIC KNOWLEDGE</strong> site.
+                Our product development teams have significant experience designing,
+                 developing and manufacturing Carrier Grade wireless products and
+                  solutions for the cellular and LPWAN IoT technologies.
+                  We are happy to share our knowledge and experience to enable the global IoT adoption,
+                  reduce its cost, simplify its deployment and operational complexity.
+                  Our mantra is to ensure the “IoT JUST WORKS” –
+                 we believe in it and focus most our efforts to make it reality.</p>
+            <p class='product-info-subtitle'>If you would like to leave your name and email,
+                we would gladly add you to the next article release approximately every 2 weeks.
+                However, you can visit this site any time and download
+                any article without providing your contact information – we are here to share the knowledge.</p>
             <div class="form-row nameDiv">
                 <label class="form-label label-margin">Name</label>
                 <input class="form-field nameField" id="name" name="name" type="text">
@@ -345,12 +357,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <label class="form-label label-margin">Email</label>
                 <input class="form-field emailField" name="email" type="email">
             </div>
-            <div class="form-row companyDiv">
+            <input class="form-field" name="type" type="hidden" value="whitepapers" >
+            <input class="form-field" id="pdf_url" type="hidden" value="" >
+            {{-- <div class="form-row companyDiv">
                 <label class="form-label label-margin">Company Name</label>
                 <input class="form-field companyField" name="company" type="text">
-                <input class="form-field" name="type" type="hidden" value="whitepapers" >
-                <input class="form-field" id="pdf_url" type="hidden" value="" >
-            </div>
+            </div> --}}
             <div class="form-row">
                 <div class="form-agreement">
                     <input type="checkbox" id="pdf-download-agreement-checkbox">

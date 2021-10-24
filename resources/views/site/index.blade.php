@@ -14,7 +14,7 @@
             <div class="intro-banner-info">
                 <div class="intro-container">
                     <div class="main-intro-about">
-                        <div class="intro-about-article" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50"><?= \App\Models\StaticTextLang::t("Every year TEKTELIC enables hundreds of global IoT Operators and Enterprises to deploy <strong>the most cost effective, reliable and simple to operate IoT Networks and Solutions.</strong>",'main'); ?>
+                        <div class="intro-about-article" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50"><?= \App\Models\StaticTextLang::t("Every year TEKTELIC enables hundreds of global IoT Operators and Enterprises to deploy <h1 style='display: inline; font-weight:600;'>the most cost effective, reliable and simple to operate IoT Networks and Solutions.</h1>",'main'); ?>
                         </div>
                         <div class="intro-about-exerpt" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
                             <button class="main-button-white" data-fancybox data-src="#contact-us">contact us</button>

@@ -198,7 +198,7 @@ var app = {
             //     },
             // })
         }
-        
+
         /* #SID - 46-testimonials-slider-section-for-the-homepage */
         var $brands_slider = $('#testimonial-carousel');
         $(document).ready(function(){
@@ -746,32 +746,34 @@ jQuery(document).ready(function($) {
     $(document).on('click', '.downloadNow',function(e){
         var name = $(".download-pdf").find(".nameField").val();
         var email = $(".download-pdf").find(".emailField").val();
-        var company = $(".download-pdf").find(".companyField").val();
+        // var company = $(".download-pdf").find(".companyField").val();
         var pattern = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
         $(".errorField").remove();
         var err = false;
-        if(name == '' || email == '' || company == '' || (!pattern.test(email)))
+        //if(name == '' || email == '' || company == '' || (!pattern.test(email)))
+        if(email != '' && !pattern.test(email))
         {
-            if(name == '')
-            {
-                $(".nameDiv").append("<span class='errorField'>Name is required!</span>");
-                err = true;
-            }
-            if(email == '')
-            {
-                $(".emailDiv").append("<span class='errorField'>Email is required!</span>");
-                err = true;
-            }
+            // if(name == '')
+            // {
+            //     $(".nameDiv").append("<span class='errorField'>Name is required!</span>");
+            //     err = true;
+            // }
+            // if(email == '')
+            // {
+            //     $(".emailDiv").append("<span class='errorField'>Email is required!</span>");
+            //     err = true;
+            // }
+            // if(email != '' && !pattern.test(email))
             if(email != '' && !pattern.test(email))
             {
                 $(".emailDiv").append("<span class='errorField'>Please enter a valid email!</span>");
                 err = true;
             }
-            if(company == '')
-            {
-                $(".companyDiv").append("<span class='errorField'>Company name is required!</span>");
-                err = true;
-            }
+            // if(company == '')
+            // {
+            //     $(".companyDiv").append("<span class='errorField'>Company name is required!</span>");
+            //     err = true;
+            // }
         }
         if(err == true)
         {
@@ -1068,7 +1070,7 @@ jQuery(document).ready(function($) {
 //     var title = "";
 //     if(window.location.pathname == "/")
 //     {
-//         title = "Global IoT leader of End-to-End LoRaWAN solutions";   
+//         title = "Global IoT leader of End-to-End LoRaWAN solutions";
 //     }
 //     else
 //     {
@@ -1078,7 +1080,7 @@ jQuery(document).ready(function($) {
 //         }
 //         else
 //         {
-//             title = $("h1").html();   
+//             title = $("h1").html();
 //         }
 //     }
 //     $("#headTitle").html("TEKTELIC | " + stripHtml(title));
@@ -1110,5 +1112,5 @@ function stripHtml(html){
 
 function filterCategory(id)
 {
-    document.getElementById(id).submit();    
+    document.getElementById(id).submit();
 }

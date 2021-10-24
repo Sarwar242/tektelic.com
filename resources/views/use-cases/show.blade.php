@@ -1,6 +1,11 @@
 @extends('layout')
-@section('metaTitle', $use_case->title)
+@section('metaTitle',\Illuminate\Support\Str::limit($use_case->title, $limit = 55, $end = '...'))
+@if(!is_null($use_case->sub_title))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($use_case->sub_title) ))
+@else
+@section('metaDesc', $use_case->title)
+@endif
+
 
 @section('content')
     <div class="page-navigation">

@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', $key_area->title)
+@section('metaTitle', \Illuminate\Support\Str::limit($key_area->title, $limit = 55, $end = '...'))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($key_area->sub_title) ))
 
 @section('content')

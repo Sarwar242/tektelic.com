@@ -10,7 +10,7 @@
                 </ul>
             </div>
             <div class="page-headings">
-                <h2 class="page-title">{{$page->title}}</h2>
+                <h1 class="page-title">{{$page->title}}</h1>
             </div>
             @if (\Session::has('success'))
                 <div class="alert alert-success">

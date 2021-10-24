@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', Comparison)
+@section('metaTitle', 'Comparison')
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags('Comparison') ))
 
 @section('content')
