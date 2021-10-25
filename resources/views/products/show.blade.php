@@ -1,6 +1,6 @@
 
 @extends('layout')
-@section('metaTitle',\Illuminate\Support\Str::limit($product->title, $limit = 55, $end = '...'))
+@section('metaTitle',\Illuminate\Support\Str::limit($product->title, $limit = 47, $end = '..'))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($product->subtitle) ))
 
 @section('content')

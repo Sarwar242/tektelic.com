@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle',\Illuminate\Support\Str::limit($use_case->title, $limit = 55, $end = '...'))
+@section('metaTitle',\Illuminate\Support\Str::limit($use_case->title, $limit = 47, $end = '..'))
 @if(!is_null($use_case->sub_title))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($use_case->sub_title) ))
 @else

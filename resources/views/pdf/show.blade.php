@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', $pdf->title)
+@section('metaTitle', \Illuminate\Support\Str::limit($pdf->title, $limit = 47, $end = '..'))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($pdf->short_description) ))
 
 @section('content')

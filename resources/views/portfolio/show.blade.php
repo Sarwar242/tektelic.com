@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', \Illuminate\Support\Str::limit($portfolio->title, $limit = 55, $end = '...'))
+@section('metaTitle', \Illuminate\Support\Str::limit($portfolio->title, $limit = 47, $end = '..'))
 @if(!is_null($portfolio->subtitle))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($portfolio->sub_title)))
 @else

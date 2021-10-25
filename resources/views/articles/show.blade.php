@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', \Illuminate\Support\Str::limit($post->title, $limit = 55, $end = '...'))
+@section('metaTitle', \Illuminate\Support\Str::limit($post->title, $limit = 47, $end = '..'))
 @if(!is_null($post->subtitle))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($post->subtitle)))
 @else

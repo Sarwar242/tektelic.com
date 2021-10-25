@@ -1,5 +1,5 @@
 @extends('layout')
-@section('metaTitle', \Illuminate\Support\Str::limit($blog->title, $limit = 55, $end = '...'))
+@section('metaTitle', \Illuminate\Support\Str::limit($blog->title, $limit = 47, $end = '..'))
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags($blog->content_top) ))
 @section('content')
     <!-- #SID - 44-new-website-page-knowledge -->

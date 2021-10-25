@@ -1,5 +1,5 @@
 @extends('minilayout')
-@section('metaTitle', 'eHealth - End-to-End Health Monitoring IoT Solutions')
+@section('metaTitle', 'eHealth - End-to-End Health Monitoring')
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags('TEKTELIC has utilized its capabilities as a premier designer and manufacturer of End-to-End IoT solutions to deliver a comprehensive suite of solutions to address some of the most common challenges in the healthcare space. The TEKTELIC eHealth solutions are changing the way respiratory health and vital sign monitoring is approached with a low power solution designed for quick setup, minimal maintenance and continuous monitoring.') ))
 
 @section('content')
@@ -255,7 +255,7 @@
 
                         <div class="tab-pane fade" id="nav-our"
                             role="tabpanel" aria-labelledby="nav-our-tab">
-                            
+
                             <section class="ourclient-tab-sec">
                                 <div class="container-fluid">
                                     <div class="row testi-inner">
@@ -332,7 +332,7 @@
 
                         <div class="tab-pane fade" id="nav-about"
                             role="tabpanel" aria-labelledby="nav-about-tab">
-                            
+
                             <section class="contact-tab-sec">
                                 <div class="container">
                                     <div class="row">
