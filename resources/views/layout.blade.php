@@ -378,7 +378,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </form>
     </div>
 </div>
-<script src="{{ asset('js/libraries.min.js') }}"></script>
+<script defer src="{{ asset('js/libraries.min.js') }}"></script>
 <!-- <script src="{{ asset('libraries/jquery/jquery-accordion.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/tabslet/jquery.tabslet.min.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/accordion/QuickAccord.min.js') }}"></script> -->
@@ -388,14 +388,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- <script src="{{ asset('libraries/ion.rangeSlider/ion.rangeSlider.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/minibar/minibar.min.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/aos/aos.js') }}"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-<script src="{{ asset('js/script.js') }}"></script>
-<script src="{{ asset('js/filter.js') }}"></script>
-<script src="{{ asset('js/load-data.js') }}"></script>
-<script src="{{ asset('js/static-load-more/jquery.simpleLoadMore.min.js')}}"></script>
-<script src="{{ asset('js/cookies-enabler.js') }}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-<script>
+<script defer src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script defer src="{{ asset('js/script.js') }}?v=1.0"></script>
+<script defer src="{{ asset('js/filter.js') }}"></script>
+<script defer src="{{ asset('js/load-data.js') }}"></script>
+<script defer src="{{ asset('js/static-load-more/jquery.simpleLoadMore.min.js')}}"></script>
+<script defer src="{{ asset('js/cookies-enabler.js') }}"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+<script defer>
     COOKIES_ENABLER.init({
         scriptClass: 'ce-script',
         iframeClass: 'ce-iframe',
