@@ -59,7 +59,7 @@
                 @include('layouts._parts.pdf_block',['pdfs' => $pdfs])
             </div>
             <div class="section-footer" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="50">
-                <a class="view-all" href="<?= url('whitepaper') ?>"><span><?= \App\Models\StaticTextLang::t("View all",'main'); ?></span></a>
+                <a class="view-all" href="<?= url('/knowledge/whitepapers') ?>"><span><?= \App\Models\StaticTextLang::t("View all",'main'); ?></span></a>
             </div>
         </div>
     </section>

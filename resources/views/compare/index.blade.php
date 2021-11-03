@@ -3,6 +3,7 @@
 @section('metaDesc', preg_replace( "/\r|\n/", "", strip_tags('Comparison') ))
 
 @section('content')
+
     <div class="page-body">
         <div class="compare-wrapper">
             <div class="container">

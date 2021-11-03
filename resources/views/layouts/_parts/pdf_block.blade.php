@@ -11,7 +11,7 @@
         <div class="portfolio-list-column">
             <div class="hover-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
                 <div class="hover-box-inner">
-                    <img class="image" src="{{$pdf->image}}" alt="{{$pdf->title}}" title="{{$pdf->title}}">
+                    <img class="image" src="{{$pdf->image}}" alt="{{$pdf->title}}" loading='lazy' title="{{$pdf->title}}">
                     <a class="hover-box-overlay" href="{{url('knowledge/whitepaper',['slug' => $pdf->slug])}}">
                         <div class="hover-box-header">
                             <h3 class="hover-box-title">{{$pdf->title}}</h3>

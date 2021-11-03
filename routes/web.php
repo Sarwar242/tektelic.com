@@ -22,10 +22,10 @@ Route::get('key-areas','KeyAreasController@index')->name('key-areas');
 Route::get('key-areas/{slug}','KeyAreasController@show')->name('key-area');
 
 /** Route for articles */
-Route::match(['POST','GET'],'/articles','ArticlesController@index')->name('articles');
-Route::get('/articles/{slug}','ArticlesController@show');
-Route::match(['POST','GET'],'/articles/category/{category_slug}','ArticlesController@index')
-    ->name('category_articles');
+// Route::match(['POST','GET'],'/articles','ArticlesController@index')->name('articles');
+// Route::get('/articles/{slug}','ArticlesController@show');
+// Route::match(['POST','GET'],'/articles/category/{category_slug}','ArticlesController@index')
+//     ->name('category_articles');
 
 Route::match(['POST','GET'],'catalog','CatalogController@index')->name('catalog');
 Route::get('catalog/{slug}','CatalogController@show');
@@ -68,7 +68,7 @@ Route::post('compare-type','ComparisonController@compareType');
 Route::post('compare-aside','ComparisonController@compareAside');
 
 /** PDF/Blog Routes */
-Route::get('whitepapers','PdfController@index')->name('whitepapers');
+// Route::get('whitepapers','PdfController@index')->name('whitepapers');
 Route::get('knowledge/whitepaper/{slug}','PdfController@show');
 //Route::match(['POST','GET'],'knowledge','BlogController@index')->name('knowledge');/*#SID - 44-new-website-page-knowledge */
 Route::any('knowledge/{category}','BlogController@index')->name('knowledge');/*#SID - 44-new-website-page-knowledge */

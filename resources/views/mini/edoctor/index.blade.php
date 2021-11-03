@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>eDoctor</h1>
+                        <h1>eDoctor <span style="font-weight: 600; font-size: 0.4em; color:black;">&nbsp;Solution</span></h1>
                         <p>The most simple to deploy IoT solution to monitor hospital patients, senior care residents, seniors living at home, high performance athletes and other vulnerable individuals who require constant respiratory health monitoring.</p>
                         <a href="#myModal" data-toggle="modal" class="ehealth-video"><img src="{{ asset('mini/images/play-btn.png') }}">Watch Video</a>
                     </div>
@@ -116,7 +116,7 @@
         <section class="section">
             <div class="container-fluid">
                 <h2 class="section-heading section-heading-small section-heading-primary text-center">Continuously monitor</h2>
-                
+
                 <div class="features-list">
                     <div class="features-item">
                         <img src="{{ asset('mini/images/RespiratoryBreathingRate.svg') }}">
@@ -147,7 +147,7 @@
             </div>
         </section>
         <!-- End section -->
-        
+
         <!-- Section -->
         <section class="section easy-comfort-sec">
             <div class="container">
@@ -210,7 +210,7 @@
 
         <!-- Section -->
         <section class="section">
-            
+
             <div class="container">
                 <h2 class="section-heading section-heading-highlight">
                     YOU MAY ALSO BE INTERESTED IN
@@ -218,7 +218,7 @@
             </div>
 
             <div class="container-fluid">
-                
+
                 <div class="products-list">
                     <a class="product-link" href="https://tektelic.com/catalog/wearable-lorawan-temperature-sensor">
                         <div class="products-item">

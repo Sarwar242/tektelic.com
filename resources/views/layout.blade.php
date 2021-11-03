@@ -23,7 +23,6 @@ use Illuminate\Support\Facades\Session;
     <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"> -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/styles.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/custom.css') }}">
-
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -34,7 +33,7 @@ use Illuminate\Support\Facades\Session;
 </head>
 <body class="page-home">
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5MX37X"
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N5MX37X" loading="lazy"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 @include('layouts.header')
@@ -378,7 +377,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </form>
     </div>
 </div>
-<script defer src="{{ asset('js/libraries.min.js') }}"></script>
+{{-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script> --}}
+<script src="{{ asset('js/libraries.min.js') }}"></script>
 <!-- <script src="{{ asset('libraries/jquery/jquery-accordion.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/tabslet/jquery.tabslet.min.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/accordion/QuickAccord.min.js') }}"></script> -->
@@ -388,12 +388,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- <script src="{{ asset('libraries/ion.rangeSlider/ion.rangeSlider.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/minibar/minibar.min.js') }}"></script> -->
 <!-- <script src="{{ asset('libraries/aos/aos.js') }}"></script> -->
-<script defer src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
 <script defer src="{{ asset('js/script.js') }}?v=1.0"></script>
 <script defer src="{{ asset('js/filter.js') }}"></script>
 <script defer src="{{ asset('js/load-data.js') }}"></script>
 <script defer src="{{ asset('js/static-load-more/jquery.simpleLoadMore.min.js')}}"></script>
-<script defer src="{{ asset('js/cookies-enabler.js') }}"></script>
+<script src="{{ asset('js/cookies-enabler.js') }}"></script>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
 <script defer>
     COOKIES_ENABLER.init({

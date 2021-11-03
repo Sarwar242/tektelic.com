@@ -7,7 +7,7 @@
         <div class="container">
             <div class="page-breadcrumbs">
                 <ul class="breadcrumbs-navigation">
-                    <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="index.html">Home </a></li>
+                    <li class="breadcrumbs-item"><a class="breadcrumbs-link" href="{{ url('/') }}">Home </a></li>
                     <li class="breadcrumbs-item"><span class="breadcrumbs-text">Search</span></li>
                 </ul>
             </div>

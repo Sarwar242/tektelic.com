@@ -32,7 +32,7 @@
                     <div class="col-12 col-md-4 mb-4 mb-md-0">
                         <ul class="footer-menu">
                             <li class="footer-menu-item">
-                                <a href="{{ url('/knowledge') }}"
+                                <a href="{{ url('/knowledge/news') }}"
                                     class="footer-menu-link">Knowledge
                                     base</a>
                             </li>
