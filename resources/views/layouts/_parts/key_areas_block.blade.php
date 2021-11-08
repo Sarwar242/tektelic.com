@@ -16,7 +16,7 @@
             <article class="feature-post-article">
                 <div class="feature-post-image">
                     <a class="feature-post-image-wrapper" href="{{url('key-areas',['slug' => $key_area['slug']])}}">
-                        <img class="image" lazy="loading" src="{{asset(\App\Helpers\Helper::getImgSrc($key_area['image']))}}" alt="{{ $key_area['alt'] }}" title="{{ $key_area['pic_title'] }}"/>
+                        <img class="image" src="{{asset(\App\Helpers\Helper::getImgSrc($key_area['image']))}}" alt="{{ $key_area['alt'] }}" lazy="loading" title="{{ $key_area['pic_title'] }}"/>
                     </a>
                 </div>
                 <div class="feature-post-content">

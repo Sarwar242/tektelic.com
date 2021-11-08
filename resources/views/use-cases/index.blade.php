@@ -8,9 +8,9 @@
             {{ Breadcrumbs::render('use-cases') }}
             <div class="page-headings">
                 @if(isset($heading) && !empty($heading->title))
-                    <h1 class="page-title">{{$heading->title}}</h1>
+                    <h1 class="page-title">TEKTELIC {{$heading->title}}</h1>
                 @else
-                    <h1 class="page-title"><?= \App\Models\StaticTextLang::t("Use cases",'use_case'); ?></h1>
+                    <h1 class="page-title">TEKTELIC <?= \App\Models\StaticTextLang::t("Use cases",'use_case'); ?></h1>
                 @endif
             </div>
         </div>

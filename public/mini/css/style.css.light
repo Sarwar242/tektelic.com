@@ -25,6 +25,7 @@ img {
   width: 100%;
   z-index: 100;
   padding: 0px 25px;
+  background-color: #629eaf;
   transition: .3s all ease-in-out;
   height: auto;
 }
@@ -67,7 +68,7 @@ img {
 }
 
 .main-header .header-action-btn:hover {
-  background-color: #51c3e6;
+  background-color: #f2f8fd;
   border-color: #51c3e6;
 }
 
@@ -137,7 +138,7 @@ img {
 /* Main footer */
 
 .main-footer {
-  background-color: #195A70;
+  background-color: #5a5a5a;
   padding-top: 147px;
   padding-bottom: 100px;
 }
@@ -165,7 +166,7 @@ img {
 }
 
 .main-footer .footer-menu .footer-menu-link {
-  font-family: "Raleway";
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
@@ -181,6 +182,7 @@ img {
 }
 
 .main-footer .footer-menu .footer-menu-link>i {
+
   vertical-align: middle;
   /* margin-top: 5px; */
   margin-right: 20px;
@@ -253,7 +255,7 @@ img {
 .social-media-menu .social-media-menu-link {
   font-size: 16px;
   text-decoration: none;
-  color: #fff;
+  color: #38a7ca;
 }
 
 .social-media-menu .social-media-menu-link:hover {
@@ -506,7 +508,7 @@ img {
   position: relative;
 }
 .banner-slider {
-  background: radial-gradient(50.74% 74.59% at 49.26% 56.06%, #8AE3FF 0%, #38A7CA 100%);
+  background: #f2f8fd;;
   border-radius: 100px 0px 0px 0px;
   margin-top: 120px;
 }
@@ -596,7 +598,7 @@ section.slider-sec-product .col-md-6 {
   font-style: normal;
   font-weight: bold;
   line-height: 23px;
-  color: #38A7CA;
+  color: #277E9A;
 }
 
 .product-tab-inner {
@@ -1165,7 +1167,7 @@ section.intrest-slider h2 {
   font-weight: 900;
   font-size: 50px;
   line-height: 65px;
-  color: #fff;
+  color: #277E9A;
 }
 section.intrest-slider p {
   font-family: "Raleway";
@@ -1173,7 +1175,7 @@ section.intrest-slider p {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #fff;
+  color: #277E9A;
 }
 .intresting-slider button[aria-selected="true"]:after {
   content: "";
@@ -1258,7 +1260,7 @@ section.section.intrest-slider {
   right: 0;
   z-index: 0;
   font-size: 450px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   display: block;
   text-align: center;
   font-weight: 800;
@@ -1270,9 +1272,9 @@ section.section.doctor-sec h1 {
   font-family: Raleway;
   font-style: normal;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 80px;
   line-height: 94px;
-  color: #fff;
+  color: #277E9A;
 }
 section.section.doctor-sec p {
   font-family: Raleway;
@@ -1280,7 +1282,7 @@ section.section.doctor-sec p {
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 section.section.doctor-sec .slick-next {
   display: none !important;
@@ -1689,7 +1691,8 @@ div#nav-tab {
   border-bottom: 0px;
 }
 .main-content {
-  background: radial-gradient(49.23% 49.85% at 51.31% 27.5%, #8AE3FF 0%, #38A7CA 100%);
+  /* background: radial-gradient(49.23% 49.85% at 51.31% 27.5%, #8AE3FF 0%, #38A7CA 100%); */
+  background: #f2f8fd;
   padding-top: 146px;
 }
 
@@ -1708,7 +1711,7 @@ div#nav-tab {
   font-weight: 900;
   font-size: 50px;
   line-height: 65px;
-  color: #FFFFFF;
+  color: #277E9A;
   margin-bottom: 50px;
 }
 
@@ -1727,7 +1730,7 @@ div#nav-tab {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #000000;
   margin-bottom: 50px;
 }
 
@@ -1812,7 +1815,7 @@ div#nav-tab {
   font-weight: 900;
   font-size: 40px;
   line-height: 65px;
-  color: #FFFFFF;
+  color: #277E9A;
   padding-left: 40%;
   margin-bottom: 60px;
   position: relative;
@@ -1824,7 +1827,7 @@ div#nav-tab {
   position: absolute;
   top: 0;
   left: 0;
-  color: #FFFFFF;
+  color: #277E9A;
   opacity: 0.1;
   font-size: 130px;
   line-height: 120px;
@@ -1865,7 +1868,7 @@ a.product-link{
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  color: #FFFFFF;
+  color: #277E9A;
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;

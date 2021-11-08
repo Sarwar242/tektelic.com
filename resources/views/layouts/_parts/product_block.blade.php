@@ -17,7 +17,7 @@
                             <source media="(min-width: 0px)" srcset="{{asset($product->getMainImage()['paths'])}}"/>
                             <source media="(min-width: 576px)" srcset="{{asset($product->getMainImage()['paths'])}}"/>
                             <img class="image" src="{{asset($product->getMainImage()['paths'])}}"
-                                 alt="{{$product->getMainImage()['alt']}}"/>
+                                 alt="{{$product->getMainImage()['alt']}}"  loading='lazy'/>
                         </picture>
                     </div>
                     <div class="product-card-content">

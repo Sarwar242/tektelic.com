@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>eDoctor <span style="font-weight: 600; font-size: 0.4em; color:black;">&nbsp;Solution</span></h1>
+                        <h1>eDoctor Solution</h1>
                         <p>The most simple to deploy IoT solution to monitor hospital patients, senior care residents, seniors living at home, high performance athletes and other vulnerable individuals who require constant respiratory health monitoring.</p>
                         <a href="#myModal" data-toggle="modal" class="ehealth-video"><img src="{{ asset('mini/images/play-btn.png') }}">Watch Video</a>
                     </div>

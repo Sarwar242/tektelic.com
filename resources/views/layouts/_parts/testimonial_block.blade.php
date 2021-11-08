@@ -6,7 +6,7 @@
             <a href="{{$testimonial->website_link}}" target="_blank">
                 <div class="row testi-inner">
                     <div class="logo-area col-md-3 col-sm-12 col-xs-12 mx-0">
-                        <img src="{{$testimonial->logo}}" alt="{{$testimonial->company_name}}">
+                        <img src="{{$testimonial->logo}}" alt="{{$testimonial->company_name}}"  loading='lazy'>
                     </div>
                     <div class="template-demo">
                         <p>{{$testimonial->quote}}</p>
@@ -29,8 +29,8 @@
             </div>
             <div class="content-area col-md-9 col-sm-12 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-3"> 
-                        <img class="profile-pic" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=50"> 
+                    <div class="col-sm-3">
+                        <img class="profile-pic" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=50">
                     </div>
                     <div class="author-details col-sm-9">
                         <div class="profile">
@@ -52,8 +52,8 @@
             </div>
             <div class="content-area col-md-9 col-sm-12 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-3"> 
-                        <img class="profile-pic" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=50"> 
+                    <div class="col-sm-3">
+                        <img class="profile-pic" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=50">
                     </div>
                     <div class="author-details col-sm-9">
                         <div class="profile">
@@ -75,8 +75,8 @@
             </div>
             <div class="content-area col-md-9 col-sm-12 col-xs-12">
                 <div class="row">
-                    <div class="col-sm-3"> 
-                        <img class="profile-pic" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=50"> 
+                    <div class="col-sm-3">
+                        <img class="profile-pic" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=50">
                     </div>
                     <div class="author-details col-sm-9">
                         <div class="profile">

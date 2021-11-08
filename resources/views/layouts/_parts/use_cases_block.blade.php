@@ -9,7 +9,7 @@
             <div class="usecase-box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <a class="usecase-box-inner" href="{{url('use-cases',['slug' => $use_case->slug])}}">
                     <div class="usecase-box-image">
-                        <img class="image b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{asset(\App\Helpers\Helper::getImgSrc(isset($use_case->useCase)?$use_case->useCase->image:''))}}" alt="{{ $use_case->alt }}" title="{{ $use_case->pic_title }}">
+                        <img class="image b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{asset(\App\Helpers\Helper::getImgSrc(isset($use_case->useCase)?$use_case->useCase->image:''))}}" alt="{{ $use_case->alt }}"  loading='lazy' title="{{ $use_case->pic_title }}">
                     </div>
                     <div class="usecase-box-caption">
                         <h3 class="usecase-box-title">{{ $use_case->title }}</h3>

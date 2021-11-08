@@ -13,7 +13,7 @@
                                 <article class="news-card">
                                     <div class="news-card-inner">
                                         <a class="news-card-image" href="{{url('articles',['slug' => $article->slug])}}">
-                                            <img class="image b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{\App\Helpers\Helper::getImgSrc($article->image)}}" alt="{{ $article->alt }}" title="{{ $article->pic_title }}"/>
+                                            <img class="image b-lazy" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-src="{{\App\Helpers\Helper::getImgSrc($article->image)}}" loading='lazy' alt="{{ $article->alt }}" title="{{ $article->pic_title }}"/>
                                         </a>
                                         <div class="news-card-content">
                                             <date class="news-card-date">

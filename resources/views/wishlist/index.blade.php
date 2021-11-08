@@ -8,7 +8,7 @@
             <div class="container">
                 <div class="section-header" data-aos="fade-in" data-aos-duration="500" data-aos-delay="50">
                     <div class="feature-headings" data-title="><?= \App\Models\StaticTextLang::t("Wishlist",'wishlist'); ?>">
-                        <h1 class="section-title"><?= \App\Models\StaticTextLang::t("Wishlist",'wishlist'); ?></h1>
+                        <h1 class="section-title">Products <?= \App\Models\StaticTextLang::t("Wishlist",'wishlist'); ?></h1>
                     </div>
                 </div>
                 <div class="section-body">

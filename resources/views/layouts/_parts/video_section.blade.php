@@ -11,7 +11,7 @@
             <div class="portfolio-list-column video-single">
                 <div class="youtube-video-place" data-yt-url="<?php echo $videos->link_one; ?>">
                     <div class="play"></div>
-                    <img src="https://img.youtube.com/vi/<?php echo explode("/",$videos->link_one)[4]; ?>/0.jpg" async class="play-youtube-video">
+                    <img src="https://img.youtube.com/vi/<?php echo explode("/",$videos->link_one)[4]; ?>/0.jpg" async  loading='lazy' class="play-youtube-video">
                 </div>
                 <!--<iframe width="450" height="300" src="?rel=0&showinfo=0&autoplay=0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
             </div>
