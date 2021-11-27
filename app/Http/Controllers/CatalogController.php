@@ -40,7 +40,7 @@ class CatalogController extends Controller
         $parse_data_filter = Product::parseFilterString(isset($_GET['filters']) ? $_GET['filters'] : []);
         $products = Product::getProducts(true,true,Product::STATUS_ACTIVE,true);
 
-       if(!empty($category_slug)) {
+        if(!empty($category_slug)) {
             $use_cases_ids = $model->getCategoryKeysBySlug($category_slug,[ItemKey::TYPE_PRODUCT]);
             $products->whereIn('id',$use_cases_ids);
         }
@@ -86,7 +86,7 @@ class CatalogController extends Controller
             ];
             $result['url'] = !empty($url_string_filter) ? $url_string_filter : false;
             $result['is_sort'] = $is_sort;
-
+ // \Log::warning("result: ". json_encode($result, JSON_PRETTY_PRINT));
             return json_encode($result);
         } else {
             if(!empty($parse_data_filter)) {
@@ -100,6 +100,7 @@ class CatalogController extends Controller
                 }
             }
             $heading = Headings::where('slug','products')->first();
+            \Log::warning("result2: ". json_encode($products->paginate($countPaginate), JSON_PRETTY_PRINT));
             return view('products.index',[
                 'products' => $products->paginate($countPaginate),
                 'categories' => $categories,
@@ -108,10 +109,9 @@ class CatalogController extends Controller
                 'seo_block' => $seo_block,
                 'heading' => $heading
             ]);
+
         }
-
     }
-
     /**
      * @param $slug
      * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View

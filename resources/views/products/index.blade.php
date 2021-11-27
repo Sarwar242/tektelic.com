@@ -91,7 +91,7 @@
                                 Shown:
                                 <span class="firstItem" style="margin: 0 3px"> {{$products->firstItem()}} </span>
                                  -
-                                <span class="count" style="margin: 0 3px"> {{$products->count()}} </span>
+                                <span class="count" style="margin: 0 3px"> {{$products->count() + $products->firstItem()-1}} </span>
                                  of
                                 <span class="total" style="margin: 0 3px"> {{$products->total()}} </span>
                                  items
@@ -108,14 +108,14 @@
                 </div>
                 <div class="catalog-footer">
                     <div class="pagination">
-                        @if($products->currentPage() != $products->lastPage())
+                        {{-- @if($products->currentPage() != $products->lastPage())
                             <div class="load-more load-data-content"
                                  data-type="catalog"
                                  data-url="{{$action_name}}"
                                  data-current-page="{{isset($_GET['page']) ? $_GET['page'] : 1 }}"
                                  data-aos="fade-in" data-aos-duration="1000" data-aos-delay="100"
                                  data-empty-query="No results were found for your search."> Load more </div>
-                        @endif
+                        @endif --}}
                         @include('layouts._parts.paginator', ['paginator' => $products])
                     </div>
                     <aside class="active-panel">

@@ -9,7 +9,7 @@
             <div class="container">
                 <div class="section-header" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
                     <div class="feature-headings" data-title="<?= \App\Models\StaticTextLang::t("comparison",'comparison'); ?>">
-                        <h2 class="section-title"><b><?= \App\Models\StaticTextLang::t("comparison",'comparison'); ?></b></h2>
+                        <h1 class="section-title"><b><?= \App\Models\StaticTextLang::t("comparison",'comparison'); ?></b></h1>
                     </div>
                 </div>
                 <?php if(($comparisons->isNotEmpty())){

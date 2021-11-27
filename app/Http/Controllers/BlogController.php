@@ -36,7 +36,7 @@ class BlogController extends Controller
 
     		$defaultCategory = $blogcategory->id;
 
-    		if($blogcategory->name == "WHITEPAPERS" || $blogcategory->name == "whitepapers")
+    		if($blogcategory->name == "TEKTELIC WHITEPAPERS" || $blogcategory->name == "whitepapers")
 			{
 				$whitepaperCategoryId = $blogcategory->id;
 				$blogs = Pdfs::orderBy('id','desc');
@@ -48,7 +48,7 @@ class BlogController extends Controller
     		}
 
 	        $blogs->where('status','1');
-    		if($request->ajax()) 
+    		if($request->ajax())
     		{
     			$currentPage = 1;
 	            if(!empty($request->post('currentPage'))) {
@@ -70,9 +70,9 @@ class BlogController extends Controller
 	    		}
 	    		else
 	    		{
-	    			$result['view'] = view('blogs._parts.blog_list',['blogs' => $result_ajax_post])->render();	
+	    			$result['view'] = view('blogs._parts.blog_list',['blogs' => $result_ajax_post])->render();
 	    		}
-	    		
+
 	    		$result['page'] = $currentPage;
 	            $result['element'] = [
 	                'first_item' => $products_paginator->firstItem(),

@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin;
 use App\Models\BlogCategory;
 use Backpack\CRUD\app\Http\Controllers\CrudController;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
-use Backpack\NewsCRUD\app\Http\Requests\BlogCategoryRequest;
+use App\Http\Requests\BlogCategoryRequest;
 
 class BlogCategoryCrudController extends CrudController
 {
